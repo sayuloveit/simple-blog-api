@@ -13,7 +13,7 @@ run tests:
 npm run test
 
 docs:
-http://localhost:3000/doc
+http://localhost:3000/docs
 
 
 curl commands:
