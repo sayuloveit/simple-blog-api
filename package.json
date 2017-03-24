@@ -1,0 +1,31 @@
+{
+  "name": "kustomer",
+  "version": "1.0.0",
+  "description": "kustomer blog",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/server.js",
+    "test": "lab -c ./test/**/*.js"
+  },
+  "author": "vic zhu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "boom": "^4.2.0",
+    "glob": "^7.1.1",
+    "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "inert": "^4.1.0",
+    "joi": "^10.2.2",
+    "jsonwebtoken": "^7.3.0",
+    "lout": "^10.0.1",
+    "sequelize": "^3.30.2",
+    "sqlite3": "^3.1.8",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "code": "^4.0.0",
+    "lab": "^10.9.0"
+  }
+}
